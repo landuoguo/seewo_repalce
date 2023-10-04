@@ -15,7 +15,7 @@
 
 ## 程序原理
 ### 【本地替换】  
-* 采用目录扫描`C:\Users\****\AppData\Roaming\Seewo\EasiNote5\Resources\Banner\`和`C:\Program Files (x86)\Seewo\EasiNote5\`这两个常规希沃目录，找到匹配的图片文件  
+* 扫描`C:\Users\****\AppData\Roaming\Seewo\EasiNote5\Resources\Banner\`和`C:\Program Files (x86)\Seewo\EasiNote5\`这两个常规希沃目录，找到匹配的图片文件  
 * 执行替换操作，并将`AppData\`下的目标图片设置为只读（防止新版希沃将该图片改回）  
 ### 【远程替换】  
 * 利用PsExec64.exe，可以在目标计算机上执行指令
